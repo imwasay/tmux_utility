@@ -50,9 +50,6 @@ available; monochrome terminals and SSH sessions remain supported.
 - Detach from an opened tmux session with **Ctrl-b**, then **d**.
 - Session, window, and pane close actions ask for confirmation first.
 
-For maintenance notes, see [handover.md](handover.md) and the [terminal UI
-design rules](DESIGN.md).
-
 ## License
 
 [MIT](LICENSE)
