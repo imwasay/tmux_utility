@@ -9,11 +9,24 @@ tmux, but do not need a copy of this application or Python.
 
 Requires Python 3.8+ and tmux (plus `ssh` for remote hosts).
 
+One-line install (installs to `~/.local/share/tmux-menu`, links `~/.local/bin/tmux-menu`):
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/imwasay/tmux_utility/main/install.sh | sh
+```
+
+Re-run the same command to upgrade. To uninstall:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/imwasay/tmux_utility/main/install.sh | sh -s -- --uninstall
+```
+
+Or install manually:
+
 ```sh
 git clone https://github.com/imwasay/tmux_utility.git
 cd tmux_utility
-ln -s "$PWD/tmux-menu" ~/.local/bin/tmux-menu   # optional
-cp .env.example .env                              # optional; or use Configure hosts
+ln -s "$PWD/tmux-menu" ~/.local/bin/tmux-menu
 ```
 
 ## Run it
