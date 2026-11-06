@@ -10,7 +10,7 @@ tmux, but do not need a copy of this application or Python.
 Requires Python 3.8+ and tmux (plus `ssh` for remote hosts).
 
 ```sh
-git clone https://github.com/<your-user>/tmux_utility.git
+git clone https://github.com/imwasay/tmux_utility.git
 cd tmux_utility
 ln -s "$PWD/tmux-menu" ~/.local/bin/tmux-menu   # optional
 cp .env.example .env                              # optional; or use Configure hosts
