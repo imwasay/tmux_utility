@@ -63,8 +63,7 @@ Symlink the launcher onto your `PATH`, for example
 `~/.local/bin/tmux-menu` to the project's launcher; interactive
 Bash supplies command completion and adds `.local/bin` to `PATH`.
 
-The existing `a remote host's `~/tmux_utility`` copy is kept in sync for convenience,
-but the combined manager does not rely on files being installed on remote
+A copy of the project may be kept on remote hosts for convenience, but the combined manager does not rely on files being installed on remote
 hosts. When syncing project files, copy the Python UI, launcher, docs, and
 `.gitignore`; keep `.env` local to the machine that runs the combined manager.
 
